@@ -1,0 +1,53 @@
+
+body{
+    margin:50px;
+    font-family: 'Libre Caslon Text', serif;
+    
+}
+h1{
+    font-size: 100px;
+    font-family: 'Abril Fatface', cursive;
+}
+h2{
+    font-family: 'Viga', sans-serif;
+    color: #0E1555;
+}
+span{
+    background: linear-gradient(60deg,#A5D7E8, #0B2447, #19376D, #576CBC, #A5D7E8);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent; 
+}
+footer{
+    color: rgb(17, 17, 121);
+    text-align: right;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    background: linear-gradient(60deg, #E7F0C3, #A4D4AE,#C3F0CA,#E0FFFB,#00FFCA);
+    margin-top: 35px;
+}
+
+.top-container{
+    background-image: url("backstyle.jpg");
+    background-size: cover;
+}
+
+.middle-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+.left{
+    width:300px;
+    height:200px;
+    float: left;
+    margin-right: 30px;
+}
+.right{
+    width:300px;
+    height:200px;
+    float: left;
+    margin-right: 30px;
+}
+.row{
+    line-height: 1.5;
+}
